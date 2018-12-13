@@ -1,0 +1,44 @@
+{
+    "widget":{
+        "name": "auto_mail_sender",
+        "description": "auto_mail_sender",
+        "short_description": "auto_mail_sender",
+        "code": "auto_mail_sender",
+        "secret_key": "15ba9cb25b1ed592aab1b7845de26cd0e75f559e5e6c1f2e920b8decc56525a8",
+        "version": "1.0.0",
+        "interface_version": 2,
+        "init_once": false,
+        "locale":[
+            "ru",
+            "en"
+        ],
+        "installation": true,
+        "support": {
+            "email": "netesov.jezz@gmail.com"
+        }
+    },
+    "locations":[
+        "ccard-1",
+        "clist-0",
+        "lcard-1",
+        "llist-0",
+        "settings"
+    ],
+    "settings":{
+         "login":{
+             "name": "settings.login",
+             "type": "text",
+             "required": true
+         },
+         "api_key":{
+             "name": "settings.api_key",
+             "type": "text",
+             "required": true
+         },
+         "account":{
+             "name": "settings.account",
+             "type": "text",
+             "required": true
+         }
+    }
+}

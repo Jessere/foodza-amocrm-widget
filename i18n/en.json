@@ -1,0 +1,12 @@
+{
+    "widget":{
+        "name":"auto_mail_sender",
+        "short_description":"auto_mail_sender",
+        "description":"auto_mail_sender"
+    },
+    "settings":{
+        "login":"User login",
+        "api_key":"API key",
+        "account":"Account"
+    }
+}

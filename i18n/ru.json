@@ -1,0 +1,12 @@
+{
+    "widget":{
+        "name":"auto_mail_sender",
+        "short_description":"auto_mail_sender",
+        "description":"auto_mail_sender"
+    },
+    "settings":{
+        "login":"Логин",
+        "api_key":"ключ API",
+        "account":"Аккаунт"
+    }
+}
